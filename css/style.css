@@ -139,6 +139,17 @@
     border: 2px dashed white;
 }
 
-/*colours
-logo: #7fffd4
-scritta: #ffb6c1*/
+.fifth-jumbotron{
+    background-color: #7fffd4;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text{
+    border: 2px dashed black;
+    background-color: #ffb6c1;
+    padding: 5px;
+}
