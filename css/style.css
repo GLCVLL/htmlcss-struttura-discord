@@ -7,29 +7,61 @@
 
 /*Generics*/
 header{
-    background-color: aqua;
+    background-color: #add8e6;
 }
 
-
-/*Utils*/
 .container{
     max-width: 1080px;
     margin: 0 auto;
+}
+
+/*Utils*/
+
+.columns{
     height: 70px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.small-column{
+.left-column{
     border: 2px dashed black;
     width: 25%;
-    height: 50px;
+    height: 40px;
     background-color: #daa520;
+    display: flex;
+    align-items: center;
 }
-.large-column{
+
+.middle-column{
     border: 2px dashed black;
     width: 50%;
-    height: 50px;
+    height: 40px;
     background-color: #daa520;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-column{
+    border: 2px dashed black;
+    width: 25%;
+    height: 40px;
+    background-color: #daa520;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.first-jumbotron{
+    background-color: #00008b;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border: 2px dashed black;
+    flex-basis: 60%;
+    min-height: 80%;
+    background-color: #ee82ee;
 }
