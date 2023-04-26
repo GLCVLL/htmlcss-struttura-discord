@@ -6,17 +6,15 @@
 }
 
 /*Generics*/
-header{
-    background-color: #add8e6;
-}
-
 .container{
     max-width: 1080px;
     margin: 0 auto;
 }
 
 /*Utils*/
-
+.background-columns{
+    background-color: #add8e6;
+}
 .columns{
     height: 70px;
     display: flex;
@@ -52,8 +50,11 @@ header{
     align-items: center;
 }
 
+.background-card{
+    background-color: #00008b; 
+}
+
 .first-jumbotron{
-    background-color: #00008b;
     height: 800px;
     display: flex;
     justify-content: center;
@@ -64,4 +65,48 @@ header{
     flex-basis: 60%;
     min-height: 80%;
     background-color: #ee82ee;
+}
+
+.second-jumbotron{
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.background-row{
+    background-color: #d3d3d3;
+}
+
+.second-jumbotron-reverse{
+    height: 700px;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.blu-column{
+    flex-basis: 60%;
+    min-height: 400px;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+.pink-column{
+    flex-basis: 40%;
+    min-height: 400px;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+}
+
+.third-jumbotron{
+    height: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.card-green{
+    border: 2px dashed black;
+    width: 100%;
+    min-height: 90%;
+    background-color: #228b22;
 }
