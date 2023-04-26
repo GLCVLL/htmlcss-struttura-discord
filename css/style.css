@@ -6,7 +6,30 @@
 }
 
 /*Generics*/
+header{
+    background-color: aqua;
+}
 
 
+/*Utils*/
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-/*Utils/*
+.small-column{
+    border: 2px dashed black;
+    width: 25%;
+    height: 50px;
+    background-color: #daa520;
+}
+.large-column{
+    border: 2px dashed black;
+    width: 50%;
+    height: 50px;
+    background-color: #daa520;
+}
