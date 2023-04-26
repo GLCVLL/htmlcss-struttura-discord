@@ -110,3 +110,35 @@
     min-height: 90%;
     background-color: #228b22;
 }
+
+.background-footer{
+    background-color: #23272a;
+}
+
+.fourth-jumbotron{
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.lightpink-column{
+    flex-basis: 30%;
+    min-height: 400px;
+    background-color: #f08080;
+    border: 2px dashed black;
+}
+.lightblu-column{
+    flex-basis: 70%;
+    min-height: 400px;
+    background-color: #20b2aa;
+    border: 2px dashed black;
+    display: flex;
+}
+.dashed{
+    width: calc(100% / 4);
+    min-height: 100%;
+    border: 2px dashed white;
+}
+
+/*colours
+logo: #7fffd4
+scritta: #ffb6c1*/
